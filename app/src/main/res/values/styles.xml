@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- styles.xml -->
+<resources>
+    <style name="Button.Green" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorAccent">#84F35C</item>
+    </style>
+</resources>

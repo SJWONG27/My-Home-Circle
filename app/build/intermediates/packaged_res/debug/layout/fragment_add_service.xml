@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".AddServiceFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/TVAddService1"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="Company Name"
+            android:textColor="#224AA1"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"/>
+        <EditText
+            android:id="@+id/ETAddService1"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:ems="15"
+            android:inputType="text"
+            android:textSize="15dp"
+            android:paddingLeft="10dp"
+            android:hint="Enter your company name "
+            android:fontFamily="@font/poppins"
+            android:background="@drawable/edit_text_design"
+            />
+
+        <TextView
+            android:id="@+id/TVAddService2"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="Representative NO. NRIC"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="#224AA1"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"/>
+        <EditText
+            android:id="@+id/ETAddService2"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:ems="15"
+            android:inputType="text"
+            android:textSize="15dp"
+            android:paddingLeft="10dp"
+            android:hint="Enter your NO. IC "
+            android:fontFamily="@font/poppins"
+            android:background="@drawable/edit_text_design"/>
+
+        <TextView
+            android:id="@+id/TVAddService3"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="Business Registration ID SSM"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="#224AA1"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"/>
+
+        <EditText
+            android:id="@+id/ETAddService3"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:ems="15"
+            android:inputType="text"
+            android:textSize="15dp"
+            android:paddingLeft="10dp"
+            android:hint="Enter SSM ID"
+            android:fontFamily="@font/poppins"
+            android:background="@drawable/edit_text_design"
+            />
+
+        <TextView
+            android:id="@+id/TVAddService4"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="Company Email Address"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="#224AA1"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"/>
+
+        <EditText
+            android:id="@+id/ETAddService4"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:ems="15"
+            android:inputType="text"
+            android:textSize="15dp"
+            android:paddingLeft="10dp"
+            android:hint="Enter company address "
+            android:fontFamily="@font/poppins"
+            android:background="@drawable/edit_text_design"/>
+
+        <TextView
+            android:id="@+id/TVAddService5"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="Upload Profile Photo"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="#224AA1"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"/>
+
+        <ImageButton
+            android:id="@+id/IBUpload"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:background="#F9F7F7"
+            android:contentDescription="@string/hello_blank_fragment"
+            android:src="@drawable/baseline_upload_24" />
+
+        <TextView
+            android:id="@+id/TVAddService"
+            android:layout_width="322dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Upload Supported Documents"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="#224AA1"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/IBUpload2"
+            android:layout_width="117dp"
+            android:layout_height="wrap_content"
+            android:background="#F9F7F7"
+            android:contentDescription="@string/hello_blank_fragment"
+            android:src="@drawable/baseline_upload_24" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:id="@+id/BtnServiceRegisterSubmit"
+            android:text="Submit"
+            android:fontFamily="@font/poppins_bold"
+            android:backgroundTint="#224AA1"
+            android:layout_marginTop="30dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

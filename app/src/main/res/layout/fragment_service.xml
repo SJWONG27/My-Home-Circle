@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ServiceFragment">
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_weight="1">-->
+
+<!--            <Button-->
+<!--                android:id="@+id/BtnElectrical"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                android:background="@drawable/ic_launcher_background"-->
+<!--                android:drawableTop="@drawable/icon_electrical"-->
+
+<!--                android:text="Electrical Services"-->
+<!--                android:fontFamily="@font/poppins_medium"-->
+<!--                android:textSize="13dp"-->
+<!--                android:textColor="#FFFFFF"-->
+<!--                ></Button>-->
+
+<!--            <Button-->
+<!--                android:id="@+id/BtnPlumbing"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="0dp"-->
+
+<!--                android:background="@drawable/ic_launcher_background"-->
+<!--                android:drawableTop="@drawable/icon_plumbing"-->
+<!--                android:drawablePadding="-15sp"-->
+<!--                android:paddingTop="32sp"-->
+<!--                android:text="Plumbing Services"-->
+<!--                android:fontFamily="@font/poppins_medium"-->
+<!--                android:textSize="13dp"-->
+<!--                android:textColor="#FFFFFF"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toTopOf="parent"></Button>-->
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_weight="1">-->
+
+<!--            <Button-->
+<!--                android:id="@+id/BtnCleaning"-->
+<!--                android:layout_width="171dp"-->
+<!--                android:layout_height="171dp"-->
+<!--                android:layout_marginStart="24dp"-->
+<!--                android:layout_marginTop="40dp"-->
+<!--                android:background="@drawable/ic_launcher_background"-->
+<!--                android:drawableTop="@drawable/icon_housecleaning"-->
+<!--                android:drawablePadding="-15sp"-->
+<!--                android:paddingTop="32sp"-->
+<!--                android:text="House Cleaning Services"-->
+<!--                android:fontFamily="@font/poppins_medium"-->
+<!--                android:textSize="13dp"-->
+<!--                android:textColor="#FFFFFF"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/BtnPlumbing"></Button>-->
+
+<!--            <Button-->
+<!--                android:id="@+id/BtnPainting"-->
+<!--                android:layout_width="171dp"-->
+<!--                android:layout_height="171dp"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_marginTop="40dp"-->
+<!--                android:background="@drawable/ic_launcher_background"-->
+<!--                android:drawableTop="@drawable/icon_painting"-->
+<!--                android:drawablePadding="-15sp"-->
+<!--                android:paddingTop="32sp"-->
+<!--                android:text="Painting Services"-->
+<!--                android:fontFamily="@font/poppins_medium"-->
+<!--                android:textSize="13dp"-->
+<!--                android:textColor="#FFFFFF"-->
+<!--                app:layout_constraintStart_toEndOf="@+id/BtnCleaning"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/BtnElectrical"></Button>-->
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_weight="1">-->
+<!--            <Button-->
+<!--                android:id="@+id/BtnAC"-->
+<!--                android:layout_width="171dp"-->
+<!--                android:layout_height="171dp"-->
+<!--                android:layout_marginStart="24dp"-->
+<!--                android:layout_marginTop="40dp"-->
+<!--                android:background="@drawable/ic_launcher_background"-->
+<!--                android:drawableTop="@drawable/icon_ac"-->
+<!--                android:drawablePadding="-15sp"-->
+<!--                android:paddingTop="32sp"-->
+<!--                android:text="A/C Services"-->
+<!--                android:fontFamily="@font/poppins_medium"-->
+<!--                android:textSize="13dp"-->
+<!--                android:textColor="#FFFFFF"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/BtnCleaning"></Button>-->
+
+<!--            <Button-->
+<!--                android:id="@+id/BtnPestControl"-->
+<!--                android:layout_width="171dp"-->
+<!--                android:layout_height="171dp"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_marginTop="40dp"-->
+<!--                android:background="@drawable/ic_launcher_background"-->
+<!--                android:drawableTop="@drawable/icon_pestcontrol"-->
+<!--                android:drawablePadding="-15sp"-->
+<!--                android:paddingTop="32sp"-->
+<!--                android:text="Pest Control Services"-->
+<!--                android:fontFamily="@font/poppins_medium"-->
+<!--                android:textSize="13dp"-->
+<!--                android:textColor="#FFFFFF"-->
+<!--                app:layout_constraintStart_toEndOf="@+id/BtnAC"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/BtnPainting"></Button>-->
+
+<!--        </LinearLayout>-->
+
+<!--    </LinearLayout>-->
+
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintWidth_percent="0.9"
+        app:layout_constraintHeight_percent="0.9"
+        >
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/BtnPlumbing"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/lightblue4390fbx07"
+            android:drawableTop="@drawable/icon_electrical"
+            app:layout_constraintWidth_percent="0.45"
+            app:layout_constraintHeight_percent="0.25"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="Electrical Services"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="13dp"
+            android:textColor="#000000"
+            ></androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/BtnElectrical"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/lightblue4390fbx07"
+            android:drawableTop="@drawable/icon_plumbing"
+            app:layout_constraintWidth_percent="0.45"
+            app:layout_constraintHeight_percent="0.25"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="Plumbing Services"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="13dp"
+            android:textColor="#000000"
+            ></androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/BtnCleaning"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/lightblue4390fbx07"
+            android:drawableTop="@drawable/icon_housecleaning"
+            app:layout_constraintWidth_percent="0.45"
+            app:layout_constraintHeight_percent="0.25"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="House Cleaning Services"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="13dp"
+            android:textColor="#000000"
+            ></androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/BtnPainting"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/lightblue4390fbx07"
+            android:drawableTop="@drawable/icon_painting"
+            app:layout_constraintWidth_percent="0.45"
+            app:layout_constraintHeight_percent="0.25"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:text="Painting Services"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="13dp"
+            android:textColor="#000000"
+            ></androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/BtnAC"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/lightblue4390fbx07"
+            android:drawableTop="@drawable/icon_ac"
+            app:layout_constraintWidth_percent="0.45"
+            app:layout_constraintHeight_percent="0.25"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:text="A/C Services"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="13dp"
+            android:textColor="#000000"
+            ></androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/BtnPestControl"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/lightblue4390fbx07"
+            android:drawableTop="@drawable/icon_pestcontrol"
+            app:layout_constraintWidth_percent="0.45"
+            app:layout_constraintHeight_percent="0.25"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:text="Pest Control Services"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="13dp"
+            android:textColor="#000000"
+            ></androidx.appcompat.widget.AppCompatButton>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

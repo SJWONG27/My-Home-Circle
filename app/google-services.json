@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "332192219121",
+    "project_id": "ihome-mad-assignment",
+    "storage_bucket": "ihome-mad-assignment.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332192219121:android:d1d8756271496b7a968e50",
+        "android_client_info": {
+          "package_name": "com.example.madassignment"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCu_5Fp0vfM3Jc0vrBhV9f4aNLiDNfW5fE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

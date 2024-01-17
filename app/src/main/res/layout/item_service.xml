@@ -1,0 +1,136 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+<!--    <ImageView-->
+<!--        android:id="@+id/userPhotoImageView"-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_margin="8dp"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        android:src="@drawable/icon_company" />-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/TVItemCompanyName"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Company Name"-->
+<!--            android:textSize="16sp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:layout_marginTop="8dp" />-->
+
+<!--        <RatingBar-->
+<!--            android:id="@+id/serviceRatingBar"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:numStars="5"-->
+<!--            />-->
+
+<!--        &lt;!&ndash; Button for making an appointment &ndash;&gt;-->
+<!--        <Button-->
+<!--            android:id="@+id/BtnMakeAppointment"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Make Appointment"-->
+<!--            android:backgroundTint="#4390FB"-->
+<!--            android:layout_marginTop="8dp" />-->
+<!--    </LinearLayout>-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/TVItemCompanyName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Company Name"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#224AA1"
+            android:fontFamily="@font/poppins_medium"
+            android:layout_marginTop="8dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/TVrating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="19sp"
+                android:text="4.0"
+                android:textColor="#224AA1"
+                android:fontFamily="@font/poppins"
+                android:layout_gravity="center"/>
+            <RatingBar
+                android:id="@+id/serviceRatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:scaleY="0.8"
+                android:scaleX="0.8"
+                android:numStars="5"
+                android:isIndicator="true"
+                android:stepSize="0.1"
+                style="?android:attr/ratingBarStyleIndicator"
+                />
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/TVemail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="email@emaiuul.com"
+            android:fontFamily="@font/poppins"
+            android:textColor="#224AA1"
+            android:textSize="14sp"/>
+
+        <Button
+            android:id="@+id/BtnMakeAppointment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Make Appointment"
+            android:backgroundTint="#224AA1"
+            android:layout_marginTop="8dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/userPhotoImageView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/icon_company" />
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

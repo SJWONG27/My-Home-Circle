@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <!-- Notifications Section -->
+        <LinearLayout
+            android:id="@+id/notificationsSection"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:padding="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintWidth_percent="0.8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/etentercode"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Annoucement"
+                />
+
+            <!-- Announcements -->
+            <TextView
+                android:id="@+id/announcementsTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Announcements"
+                android:textColor="@color/blue"
+                android:fontFamily="@font/poppins_bold"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <!-- Announcements content -->
+            <TextView
+                android:id="@+id/announcementsContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:padding="16dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/notificationsSection"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/remindersection"
+            android:orientation="vertical"
+            android:layout_marginTop="25dp"
+            app:layout_constraintWidth_percent="0.8"
+
+            android:background="@drawable/etentercode2"
+            >
+
+            <!-- Reminder -->
+            <TextView
+                android:id="@+id/reminderTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reminder"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <!-- Reminder content -->
+            <TextView
+                android:id="@+id/reminderContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/blue"
+                />
+
+        </LinearLayout>
+
+        <!-- News Section -->
+        <LinearLayout
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/remindersection"
+            android:id="@+id/newsSection1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/notificationsSection"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_marginTop="30dp"
+            app:layout_constraintWidth_percent="0.8"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="@drawable/etentercode">
+
+            <!-- News Title -->
+            <TextView
+                android:id="@+id/newsTitle1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="News"
+                android:textColor="@color/blue"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <!-- News Image -->
+            <ImageView
+                android:id="@+id/newsImage1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/newsSection1"
+            android:id="@+id/newsSection2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/notificationsSection"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_marginTop="30dp"
+            app:layout_constraintWidth_percent="0.8"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="@drawable/etentercode2">
+
+            <!-- News Title -->
+            <TextView
+                android:id="@+id/newsTitle2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="News"
+                android:textColor="@color/blue"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <!-- News Image -->
+            <ImageView
+                android:id="@+id/newsImage2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/newsSection2"
+            android:id="@+id/newsSection3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/notificationsSection"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_marginTop="30dp"
+            app:layout_constraintWidth_percent="0.8"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="@drawable/etentercode">
+
+            <!-- News Title -->
+            <TextView
+                android:id="@+id/newsTitle3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="News"
+                android:textColor="@color/blue"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <!-- News Image -->
+            <ImageView
+                android:id="@+id/newsImage3"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"/>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

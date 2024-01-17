@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<ScrollView-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:id="@+id/fragmentaddcomplaint">-->
+
+<!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--        android:id="@+id/constraintLayout2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/TVName"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="32dp"-->
+<!--            android:text="Name"-->
+<!--            android:fontFamily="@font/poppins_medium"-->
+<!--            android:textColor="#224AA1"-->
+<!--            app:layout_constraintStart_toStartOf="@id/ETName"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/ETName"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="0dp"-->
+<!--            android:layout_marginTop="12dp"-->
+<!--            android:background="@drawable/etentercode"-->
+<!--            android:ems="10"-->
+<!--            android:hint="Write down your name"-->
+<!--            android:textSize="15dp"-->
+<!--            android:fontFamily="@font/poppins_medium"-->
+<!--            android:imeOptions="actionDone"-->
+<!--            android:inputType="text"-->
+<!--            android:padding="10dp"-->
+<!--            app:layout_constraintWidth_percent="0.8"-->
+<!--            app:layout_constraintHeight_percent="0.05"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/TVName" />-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/ETTitle"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="0dp"-->
+<!--            android:background="@drawable/etentercode"-->
+<!--            android:ems="10"-->
+<!--            android:layout_marginTop="12dp"-->
+<!--            android:hint="Enter your title"-->
+<!--            android:fontFamily="@font/poppins_medium"-->
+<!--            android:inputType="text"-->
+<!--            android:textSize="15dp"-->
+<!--            app:layout_constraintWidth_percent="0.8"-->
+<!--            app:layout_constraintHeight_percent="0.05"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/TVTitle" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/TVTitle"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:text="Title"-->
+<!--            android:fontFamily="@font/poppins_medium"-->
+<!--            android:textColor="#224AA1"-->
+<!--            app:layout_constraintStart_toStartOf="@+id/ETTitle"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/ETName" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/TVPhotoTitle"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:text="Photo Title"-->
+<!--            android:fontFamily="@font/poppins_medium"-->
+<!--            android:textColor="#224AA1"-->
+<!--            app:layout_constraintStart_toStartOf="@+id/ETPhotoTitle"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/ETTitle" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/TVDescription"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:text="Description"-->
+<!--            android:fontFamily="@font/poppins_medium"-->
+<!--            android:textColor="#224AA1"-->
+<!--            app:layout_constraintStart_toStartOf="@id/ETDescription"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/ETPhotoTitle" />-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/ETPhotoTitle"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="0dp"-->
+<!--            android:background="@drawable/etentercode"-->
+<!--            android:ems="10"-->
+<!--            android:hint="Enter your title of photo"-->
+<!--            android:fontFamily="@font/poppins_medium"-->
+<!--            android:inputType="text"-->
+<!--            android:textSize="15dp"-->
+<!--            android:layout_marginTop="12dp"-->
+<!--            app:layout_constraintWidth_percent="0.8"-->
+<!--            app:layout_constraintHeight_percent="0.05"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/TVPhotoTitle" />-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/ETDescription"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="0dp"-->
+<!--            android:layout_marginTop="12dp"-->
+<!--            android:background="@drawable/etentercode"-->
+<!--            android:ems="10"-->
+<!--            android:hint="Please provide details"-->
+<!--            android:fontFamily="@font/poppins_medium"-->
+<!--            android:inputType="text"-->
+
+<!--            android:textSize="15dp"-->
+<!--            app:layout_constraintWidth_percent="0.8"-->
+<!--            app:layout_constraintHeight_percent="0.05"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/TVDescription" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/TVDate"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="12dp"-->
+<!--            android:text="Date"-->
+<!--            android:fontFamily="@font/poppins_medium"-->
+<!--            android:textColor="#224AA1"-->
+<!--            app:layout_constraintStart_toStartOf="@id/TVDateInput"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/ETDescription" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/TVDateInput"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="0dp"-->
+<!--            android:layout_marginTop="12dp"-->
+<!--            android:background="@drawable/etentercode"-->
+<!--            android:ems="10"-->
+<!--            android:hint="Choose the date"-->
+<!--            android:fontFamily="@font/poppins_medium"-->
+<!--            android:inputType="text"-->
+<!--            android:padding="10dp"-->
+<!--            android:textSize="15dp"-->
+<!--            app:layout_constraintWidth_percent="0.8"-->
+<!--            app:layout_constraintHeight_percent="0.05"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/TVDate" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/TVUploadPhoto"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="36dp"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:layout_marginEnd="280dp"-->
+<!--            android:text="Upload a photo"-->
+<!--            android:fontFamily="@font/poppins_medium"-->
+<!--            android:textColor="#224AA1"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/TVTimeInput" />-->
+
+<!--        <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--            android:id="@+id/BtnUploadPhoto"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:contentDescription="Select Photo"-->
+<!--            android:onClick="selectPhoto"-->
+<!--            app:backgroundTint="#FFF"-->
+<!--            android:src="@drawable/baseline_add_circle_outline_24"-->
+
+<!--            app:layout_constraintStart_toStartOf="@id/ETName"-->
+<!--            app:layout_constraintTop_toTopOf="@+id/TVUploadPhoto"-->
+<!--            app:useCompatPadding="true" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/TVTime"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="12dp"-->
+<!--            android:text="Time"-->
+<!--            android:fontFamily="@font/poppins_medium"-->
+<!--            android:textColor="#224AA1"-->
+<!--            android:textSize="14dp"-->
+<!--            app:layout_constraintStart_toStartOf="@id/TVTimeInput"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/TVDateInput" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/TVTimeInput"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="0dp"-->
+<!--            android:layout_marginTop="12dp"-->
+<!--            android:background="@drawable/etentercode"-->
+<!--            android:ems="10"-->
+<!--            android:hint="Choose the time"-->
+<!--            android:fontFamily="@font/poppins_medium"-->
+<!--            android:inputType="text"-->
+<!--            android:padding="10dp"-->
+<!--            android:textSize="15dp"-->
+<!--            app:layout_constraintWidth_percent="0.8"-->
+<!--            app:layout_constraintHeight_percent="0.05"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/TVTime" />-->
+
+
+<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/BtnSubmit"-->
+<!--        android:layout_width="220dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="4dp"-->
+<!--        android:backgroundTint="#224AA1"-->
+<!--        android:radius="15dp"-->
+<!--        android:text="Submit"-->
+<!--        android:fontFamily="@font/poppins_bold"-->
+<!--        android:textSize="14dp"-->
+<!--        app:layout_anchor="@+id/constraintLayout2"-->
+<!--        app:layout_anchorGravity="bottom|center" />-->
+
+<!--</ScrollView>-->
+
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:id="@+id/fragmentaddcomplaint">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/TVName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Name"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="#224AA1"
+            app:layout_constraintStart_toStartOf="@id/ETName"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/ETName"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/etentercode"
+            android:ems="10"
+            android:hint="Write down your name"
+            android:textSize="15dp"
+            android:fontFamily="@font/poppins_medium"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            app:layout_constraintWidth_percent="0.8"
+            app:layout_constraintHeight_percent="0.05"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TVName" />
+
+        <EditText
+            android:id="@+id/ETTitle"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/etentercode"
+            android:ems="10"
+            android:layout_marginTop="12dp"
+            android:hint="Enter your title"
+            android:fontFamily="@font/poppins_medium"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:textSize="15dp"
+            app:layout_constraintWidth_percent="0.8"
+            app:layout_constraintHeight_percent="0.05"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TVTitle" />
+
+        <TextView
+            android:id="@+id/TVTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Title"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="#224AA1"
+            app:layout_constraintStart_toStartOf="@+id/ETTitle"
+            app:layout_constraintTop_toBottomOf="@+id/ETName" />
+
+        <TextView
+            android:id="@+id/TVPhotoTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Photo Title"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="#224AA1"
+            app:layout_constraintStart_toStartOf="@+id/ETPhotoTitle"
+            app:layout_constraintTop_toBottomOf="@+id/ETTitle" />
+
+        <TextView
+            android:id="@+id/TVDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Description"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="#224AA1"
+            app:layout_constraintStart_toStartOf="@id/ETDescription"
+            app:layout_constraintTop_toBottomOf="@+id/ETPhotoTitle" />
+
+        <EditText
+            android:id="@+id/ETPhotoTitle"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/etentercode"
+            android:ems="10"
+            android:hint="Enter your title of photo"
+            android:fontFamily="@font/poppins_medium"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:textSize="15dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintWidth_percent="0.8"
+            app:layout_constraintHeight_percent="0.05"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TVPhotoTitle" />
+
+        <EditText
+            android:id="@+id/ETDescription"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/etentercode"
+            android:ems="10"
+            android:hint="Please provide details"
+            android:paddingLeft="10dp"
+            android:fontFamily="@font/poppins_medium"
+            android:inputType="text"
+
+            android:textSize="15dp"
+            app:layout_constraintWidth_percent="0.8"
+            app:layout_constraintHeight_percent="0.05"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TVDescription" />
+
+        <TextView
+            android:id="@+id/TVDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Date"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="#224AA1"
+            app:layout_constraintStart_toStartOf="@id/TVDateInput"
+            app:layout_constraintTop_toBottomOf="@+id/ETDescription" />
+
+        <TextView
+            android:id="@+id/TVDateInput"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/etentercode"
+            android:ems="10"
+            android:hint="Choose the date"
+            android:fontFamily="@font/poppins_medium"
+            android:inputType="text"
+
+            android:paddingLeft="10dp"
+            android:textSize="15dp"
+            app:layout_constraintWidth_percent="0.8"
+            app:layout_constraintHeight_percent="0.05"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TVDate" />
+
+        <TextView
+            android:id="@+id/TVUploadPhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Upload a photo"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="#224AA1"
+            app:layout_constraintStart_toStartOf="@id/ETName"
+            app:layout_constraintTop_toBottomOf="@+id/TVTimeInput" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/BtnUploadPhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:contentDescription="Select Photo"
+            android:onClick="selectPhoto"
+            app:backgroundTint="#FFF"
+            android:src="@drawable/baseline_add_circle_outline_24"
+
+            app:layout_constraintStart_toStartOf="@id/ETName"
+            app:layout_constraintTop_toTopOf="@+id/TVUploadPhoto"
+            app:useCompatPadding="true" />
+
+        <TextView
+            android:id="@+id/TVTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Time"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="#224AA1"
+            android:textSize="14dp"
+            app:layout_constraintStart_toStartOf="@id/TVTimeInput"
+            app:layout_constraintTop_toBottomOf="@+id/TVDateInput" />
+
+        <TextView
+            android:id="@+id/TVTimeInput"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/etentercode"
+            android:ems="10"
+            android:hint="Choose the time"
+            android:fontFamily="@font/poppins_medium"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:textSize="15dp"
+            app:layout_constraintWidth_percent="0.8"
+            app:layout_constraintHeight_percent="0.05"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TVTime" />
+
+        <Button
+            android:id="@+id/BtnSubmit"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:backgroundTint="#224AA1"
+            android:radius="15dp"
+            android:text="Submit"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="14dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/BtnUploadPhoto"
+            />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>
+
+</ScrollView>

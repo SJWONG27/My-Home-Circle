@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/topSpace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.04" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        app:layout_constraintTop_toBottomOf="@id/topSpace"
+        app:layout_constraintWidth_percent="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/BtnInProgress"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/etentercode"
+                android:text="Inprogress"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="#224AA1"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="4dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/BtnCompleted"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/etentercode"
+                android:text="Completed"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="#224AA1"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="4dp" />
+        </LinearLayout>
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="24dp"
+            android:layout_weight="0.8">
+        </androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/BtnAddComplaint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="27dp"
+        android:clickable="true"
+        app:backgroundTint="#FFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/baseline_add_circle_outline_24"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

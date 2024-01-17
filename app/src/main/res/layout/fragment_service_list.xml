@@ -1,0 +1,35 @@
+<!-- fragment_service_list.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ServiceListFragment">
+
+    <!-- RecyclerView to display the list of services -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/servicesRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="20dp"
+        android:clipToPadding="false"
+        android:scrollbars="vertical" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/FBtnAddService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="37dp"
+        android:layout_marginBottom="46dp"
+        android:clickable="true"
+        app:backgroundTint="#FFF"
+        android:contentDescription="Add new service"
+        android:src="@android:drawable/ic_menu_add" />
+
+    <!-- Other UI elements or views specific to ServiceListFragment can be added here -->
+
+</LinearLayout>

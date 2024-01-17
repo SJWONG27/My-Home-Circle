@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_myhomecircle"
+    app:startDestination="@id/DestHome">
+    <fragment
+        android:id="@+id/DestHome"
+        android:name="com.example.madassignment.HomePageFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home_page" >
+        <action
+            android:id="@+id/hometoAnn"
+            app:destination="@id/Community3" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/DestService"
+        android:name="com.example.madassignment.ServiceFragment"
+        android:label="fragment_service"
+        tools:layout="@layout/fragment_service" >
+        <action
+            android:id="@+id/actionServicetoaddService"
+            app:destination="@id/DestAddService" />
+        <action
+            android:id="@+id/actionServicetoServiceList"
+            app:destination="@id/DestServiceList" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/DestCommunity"
+        android:name="com.example.madassignment.Community1"
+        android:label="fragment_community1"
+        tools:layout="@layout/fragment_community1" >
+
+        <action
+            android:id="@+id/actionCommunity1ToCommunity2"
+            app:destination="@id/Community2" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/Community2"
+        android:name="com.example.madassignment.Community2"
+        android:label="fragment_community2"
+        tools:layout="@layout/fragment_community2" >
+        <action
+            android:id="@+id/actionCommunity2ToAnnoucement"
+            app:destination="@id/Community3" />
+        <action
+            android:id="@+id/actionCommunity2ToReport"
+            app:destination="@id/DestReportComplaint" />
+        <action
+            android:id="@+id/action_Community2_to_complaintFragment"
+            app:destination="@id/complaintFragment" />
+        <action
+            android:id="@+id/action_Community2_to_complaintFragment2"
+            app:destination="@id/complaintFragment" />
+        <action
+            android:id="@+id/actionCommunity2ToChat"
+            app:destination="@id/communityChatsz" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/Community3"
+        android:name="com.example.madassignment.Community3"
+        android:label="fragment_community3"
+        tools:layout="@layout/fragment_community3" >
+
+        <action
+            android:id="@+id/actionCommunity3ToCommunity4"
+            app:destination="@id/Community4" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/Community4"
+        android:name="com.example.madassignment.Community4"
+        android:label="fragment_community4"
+        tools:layout="@layout/fragment_community4" />
+    <fragment
+        android:id="@+id/DestProfile"
+        android:name="com.example.madassignment.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/DestServiceList"
+        android:name="com.example.madassignment.ServiceListFragment"
+        android:label="ServiceListFragment"
+        tools:layout="@layout/fragment_service_list">
+    </fragment>
+    <fragment
+        android:id="@+id/DestAddService"
+        android:name="com.example.madassignment.AddServiceFragment"
+        android:label="AddServiceFragment"
+        tools:layout="@layout/fragment_add_service"/>
+    <fragment
+        android:id="@+id/createCommunityFragment"
+        android:name="com.example.madassignment.CreateCommunityFragment"
+        android:label="fragment_create_community"
+        tools:layout="@layout/fragment_create_community" />
+    <fragment
+        android:id="@+id/scheduleFragment"
+        android:name="com.example.madassignment.AppointmentFragment"
+        android:label="fragment_schedule"
+        tools:layout="@layout/fragment_appointment" />
+
+    <activity
+        android:id="@+id/DestCommunityChats"
+        android:name="com.example.madassignment.CommunityChats"
+        android:label="activity_community_chats"
+        tools:layout="@layout/activity_community_chats" />
+
+    <fragment
+        android:id="@+id/DestReportComplaint"
+        android:name="com.example.madassignment.newComplaint"
+        android:label="Report/Complaint"
+        tools:layout="@layout/fragment_new_complaint" >
+        <action
+            android:id="@+id/action_DestReportComplaint_to_addComplaintFragment"
+            app:destination="@id/addComplaintFragment" />
+        <action
+            android:id="@+id/action_DestReportComplaint_to_inProgressReportFragment"
+            app:destination="@id/inProgressReportFragment" />
+        <action
+            android:id="@+id/action_DestReportComplaint_to_completeReportFragment"
+            app:destination="@id/completeReportFragment" />
+        <action
+            android:id="@+id/action_DestReportComplaint_to_complaintDetails"
+            app:destination="@id/complaintDetails" />
+    </fragment>
+    <fragment
+        android:id="@+id/addComplaintFragment"
+        android:name="com.example.madassignment.addComplaintFragment"
+        android:label="addComplaintFragment"
+        tools:layout="@layout/fragment_add_complaint"/>
+    <fragment
+        android:id="@+id/inProgressReportFragment"
+        android:name="com.example.madassignment.inProgressReportFragment"
+        android:label="inProgressReportFragment">
+        <action
+            android:id="@+id/action_inProgressReportFragment_to_completeReportFragment"
+            app:destination="@id/completeReportFragment" />
+        <action
+            android:id="@+id/action_inProgressReportFragment_to_DestReportComplaint"
+            app:destination="@id/DestReportComplaint" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/completeReportFragment"
+        android:name="com.example.madassignment.completeReportFragment"
+        android:label="completeReportFragment" >
+        <action
+            android:id="@+id/action_completeReportFragment_to_inProgressReportFragment"
+            app:destination="@id/inProgressReportFragment" />
+        <action
+            android:id="@+id/action_completeReportFragment_to_DestReportComplaint"
+            app:destination="@id/DestReportComplaint" />
+    </fragment>
+    <fragment
+        android:id="@+id/complaintDetails"
+        android:name="com.example.madassignment.ComplaintFragment"
+        android:label="complaintDetails"
+        tools:layout="@layout/fragment_complaint"/>
+    <fragment
+        android:id="@+id/complaintFragment"
+        android:name="com.example.madassignment.ComplaintFragment"
+        android:label="ComplaintFragment"
+        tools:layout="@layout/fragment_complaint">
+        <action
+            android:id="@+id/action_complaintFragment_to_addComplaintFragment2"
+            app:destination="@id/addComplaintFragment2" />
+        <action
+            android:id="@+id/action_complaintFragment_to_complaintDetailsFragment"
+            app:destination="@id/complaintDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addComplaintFragment2"
+        android:name="com.example.madassignment.AddComplaintFragment"
+        android:label="AddComplaintFragment"
+        tools:layout="@layout/fragment_add_complaint"/>
+    <fragment
+        android:id="@+id/complaintDetailsFragment"
+        android:name="com.example.madassignment.ComplaintDetailsFragment"
+        android:label="ComplaintDetailsFragment"
+        tools:layout="@layout/fragment_complaint_details"/>
+    <fragment
+        android:id="@+id/communityChatsz"
+        android:name="com.example.madassignment.CommunityChatsz"
+        android:label="fragment_community_chatsz"
+        tools:layout="@layout/fragment_community_chatsz" />
+
+</navigation>

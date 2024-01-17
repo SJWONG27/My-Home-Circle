@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">332192219121</string>
+    <string name="google_api_key" translatable="false">AIzaSyCu_5Fp0vfM3Jc0vrBhV9f4aNLiDNfW5fE</string>
+    <string name="google_app_id" translatable="false">1:332192219121:android:d1d8756271496b7a968e50</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCu_5Fp0vfM3Jc0vrBhV9f4aNLiDNfW5fE</string>
+    <string name="google_storage_bucket" translatable="false">ihome-mad-assignment.appspot.com</string>
+    <string name="project_id" translatable="false">ihome-mad-assignment</string>
+</resources>

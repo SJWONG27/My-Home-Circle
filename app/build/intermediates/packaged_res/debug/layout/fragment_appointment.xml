@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".AppointmentFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/IVAppoint1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/icon_company"
+            app:layout_constraintStart_toStartOf="@id/datePicker"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <!-- Noon Time Slots -->
+
+        <TextView
+            android:id="@+id/TVAppointCompanyName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Company Name"
+            android:textColor="#224AA1"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/IVAppoint1"
+            app:layout_constraintTop_toTopOf="@id/IVAppoint1" />
+
+        <TextView
+            android:id="@+id/TVAppoint1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Choose Date and Time"
+            android:textColor="#224AA1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/datePicker"
+            app:layout_constraintTop_toBottomOf="@id/IVAppoint1" />
+
+        <DatePicker
+            android:id="@+id/datePicker"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            app:layout_constraintWidth_percent="0.8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/TVAppoint1" />
+
+        <TextView
+            android:id="@+id/textViewMorning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="Morning"
+            android:fontFamily="@font/poppins"
+            android:textColor="#224AA1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/datePicker"
+            app:layout_constraintTop_toBottomOf="@+id/datePicker" />
+
+        <Spinner
+            android:id="@+id/spinnerMorning"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:entries="@array/morning_time_slots"
+            app:layout_constraintStart_toStartOf="@id/datePicker"
+            app:layout_constraintTop_toBottomOf="@+id/textViewMorning" />
+
+        <TextView
+            android:id="@+id/textViewNoon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Noon"
+            android:fontFamily="@font/poppins"
+            android:textColor="#224AA1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/datePicker"
+            app:layout_constraintTop_toBottomOf="@+id/spinnerMorning" />
+
+        <Spinner
+            android:id="@+id/spinnerNoon"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:entries="@array/noon_time_slots"
+            app:layout_constraintStart_toStartOf="@id/datePicker"
+            app:layout_constraintTop_toBottomOf="@+id/textViewNoon" />
+
+        <Button
+            android:id="@+id/BtnSubmitAppointment"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintWidth_percent="0.5"
+            app:layout_constraintHeight_percent="0.06"
+            android:layout_gravity="center"
+            android:layout_marginTop="44dp"
+            android:text="Confirm"
+            android:fontFamily="@font/poppins_bold"
+            android:backgroundTint="#224AA1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinnerNoon" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

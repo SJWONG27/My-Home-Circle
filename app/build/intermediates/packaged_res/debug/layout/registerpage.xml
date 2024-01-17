@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterPage"
+    android:background="@drawable/luke_chesser_3rwagdkbf7u_unsplash" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/registerconstraintLayout"
+        android:layout_width="338dp"
+        android:layout_height="471dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <EditText
+            android:id="@+id/ETRegisterEmailAddress"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_text_design"
+            android:ems="15"
+            android:hint="  example@gmail.com"
+            android:textSize="15dp"
+            app:layout_constraintHeight_percent="0.1"
+            app:layout_constraintWidth_percent="0.9"
+            android:fontFamily="@font/poppins_medium"
+            android:inputType="textEmailAddress"
+            app:layout_constraintTop_toBottomOf="@id/textView13"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <EditText
+            android:id="@+id/ETRegisterUsername"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/edit_text_design"
+            android:ems="15"
+            android:hint="  examplepleple"
+            android:textSize="15dp"
+            app:layout_constraintHeight_percent="0.1"
+            app:layout_constraintWidth_percent="0.9"
+            android:fontFamily="@font/poppins_medium"
+            android:inputType="textEmailAddress"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ETRegisterEmailAddress" />
+
+        <EditText
+            android:id="@+id/ETRegisterCreatePassword"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/edit_text_design"
+            android:ems="15"
+            app:layout_constraintHeight_percent="0.1"
+            app:layout_constraintWidth_percent="0.9"
+            android:hint="  ********"
+            android:textSize="15dp"
+            android:fontFamily="@font/poppins_medium"
+            android:inputType="textVisiblePassword"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ETRegisterUsername" />
+
+        <Button
+            android:id="@+id/BtnRegister"
+            style="@style/Button.Green"
+            android:layout_width="0dp"
+            app:layout_constraintWidth_percent="0.7"
+            android:layout_height="60dp"
+            android:layout_marginTop="44dp"
+            android:backgroundTint="#224AA1"
+            android:text="Create Account"
+            android:textSize="15dp"
+            android:fontFamily="@font/poppins_bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ETRegisterCreatePassword" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Username"
+
+            android:textColor="@color/white"
+            app:layout_constraintStart_toStartOf="@id/ETRegisterUsername"
+            app:layout_constraintTop_toBottomOf="@+id/ETRegisterEmailAddress" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Password"
+
+            android:textColor="@color/white"
+            app:layout_constraintStart_toStartOf="@id/ETRegisterCreatePassword"
+            app:layout_constraintTop_toBottomOf="@+id/ETRegisterUsername" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Email"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toStartOf="@id/ETRegisterEmailAddress"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="190dp"
+        android:layout_height="241dp"
+        android:layout_marginBottom="-10dp"
+        app:layout_constraintBottom_toTopOf="@+id/registerconstraintLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/logo_myhome" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

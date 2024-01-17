@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/topSpace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        app:layout_constraintGuide_percent="0.03" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/topSpace"
+        app:layout_constraintWidth_percent="0.8"
+
+        >
+
+        <LinearLayout
+            android:id="@+id/BtnManagementAnnoucement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/etentercode"
+            android:orientation="vertical"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Management Annoucement"
+                android:fontFamily="@font/poppins_medium"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="#224AA1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/lightblue4390fbx07"
+                android:layout_marginVertical="16dp"
+                android:orientation="vertical"
+                android:id="@+id/ShortAnn1"
+                android:layout_margin="10dp"
+
+                >
+
+                <TextView
+                    android:id="@+id/shortAnnTitle1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Upcoming Maintainence Work"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textColor="#224AA1"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/shortAnnContent1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:text="A maintainence work will be carried out from 5/12/2023 until 9/12/2023...."
+                    android:textColor="#224AA1"
+                    android:fontFamily="@font/poppins"
+                    android:textSize="14sp"
+                    android:maxLines="2"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="View More..."
+                    android:fontFamily="@font/poppins"
+                    android:textColor="#224AA1"
+                    android:textSize="12sp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/lightblue4390fbx07"
+                android:layout_marginVertical="16dp"
+                android:orientation="vertical"
+                android:id="@+id/ShortAnn2"
+                android:layout_margin="10dp"
+
+                >
+
+                <TextView
+                    android:id="@+id/shortAnnTitle2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Upcoming Maintainence Work"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textColor="#224AA1"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/shortAnnContent2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:text="A maintainence work will be carried out from 5/12/2023 until 9/12/2023...."
+                    android:textColor="#224AA1"
+                    android:fontFamily="@font/poppins"
+                    android:textSize="14sp"
+                    android:maxLines="2"
+                    />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="View More..."
+                    android:textColor="#224AA1"
+                    android:fontFamily="@font/poppins"
+                    android:textSize="12sp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/BtnReportComplaint"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/etentercode"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="50sp"
+                android:layout_weight="0.25"
+                app:layout_constraintDimensionRatio="1:1"
+                android:src="@drawable/alerticon"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Report Complaint"
+                android:fontFamily="@font/poppins_medium"
+                android:layout_weight="0.75"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="#224AA1"
+
+                android:layout_marginLeft="20dp"
+                android:layout_marginVertical="20dp"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/BtnGroupChat"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/etentercode"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="50sp"
+                android:layout_weight="0.25"
+                app:layout_constraintDimensionRatio="1:1"
+                android:src="@drawable/groupchaticon"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Group Chat"
+                android:layout_weight="0.75"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="#224AA1"
+                android:fontFamily="@font/poppins_medium"
+                android:layout_marginLeft="18dp"
+                android:layout_marginVertical="20dp"
+
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

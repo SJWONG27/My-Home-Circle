@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".HomeFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/IVStatistic1"
+            android:layout_width="wrap_content"
+            android:layout_height="220dp"
+
+            android:contentDescription="Description for Image 1"/>
+
+        <ImageView
+            android:id="@+id/IVStatistic2"
+            android:layout_width="wrap_content"
+            android:layout_height="220dp"
+            android:contentDescription="Description for Image 2"
+            />
+
+        <ImageView
+            android:id="@+id/IVStatistic3"
+            android:layout_width="wrap_content"
+            android:layout_height="220dp"
+            android:src="@drawable/statistic_pic3"
+            android:contentDescription="Description for Image 3"/>
+
+        <ImageView
+            android:id="@+id/IVStatistic4"
+            android:layout_width="wrap_content"
+            android:layout_height="220dp"
+            android:src="@drawable/statistic_pic4"
+            android:contentDescription="Description for Image 4"/>
+
+        <ImageView
+            android:id="@+id/IVStatistic5"
+            android:layout_width="wrap_content"
+            android:layout_height="220dp"
+            android:src="@drawable/statistic_pic5"
+            android:contentDescription="Description for Image 5"/>
+
+        <ImageView
+            android:id="@+id/IVStatistic6"
+            android:layout_width="wrap_content"
+            android:layout_height="220dp"
+            android:src="@drawable/statistic_pic6"
+            android:contentDescription="Description for Image 6"/>
+    </LinearLayout>
+</ScrollView>

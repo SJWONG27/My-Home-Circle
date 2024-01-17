@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    android:background="@drawable/etentercode2"
+    android:layout_marginTop="15dp"
+    >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight="0.4"
+        android:padding="18dp"
+        >
+
+        <TextView
+            android:id="@+id/TVdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12/12/2023"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="#224AA1"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/TVtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0900"
+            android:fontFamily="@font/poppins_medium"
+            android:paddingTop="6dp"
+            android:textColor="#224AA1"
+            android:textSize="12sp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.8"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/TVAnnTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:text="Title"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="#224AA1"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TVAnnDes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description\ndes\ndes"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="10sp"
+            android:textColor="#224AA1"
+            android:maxLines="5" />
+    </LinearLayout>
+
+</LinearLayout>

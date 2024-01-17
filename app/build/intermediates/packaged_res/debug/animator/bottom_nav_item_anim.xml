@@ -1,0 +1,33 @@
+<!-- res/animator/bottom_nav_item_anim.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true">
+        <set>
+            <!-- Set the ambient and spot shadow colors when the item is selected -->
+            <objectAnimator
+                android:propertyName="android:outlineAmbientShadowColor"
+                android:valueTo="@color/lightblue"
+                android:valueType="colorType"
+                android:duration="100" />
+            <objectAnimator
+                android:propertyName="android:outlineSpotShadowColor"
+                android:valueTo="@color/lightblue"
+                android:valueType="colorType"
+                android:duration="100" />
+        </set>
+    </item>
+    <item android:state_checked="false">
+        <set>
+            <!-- Reset the shadow colors when the item is not selected -->
+            <objectAnimator
+                android:propertyName="android:outlineAmbientShadowColor"
+                android:valueTo="@android:color/transparent"
+                android:valueType="colorType"
+                android:duration="100" />
+            <objectAnimator
+                android:propertyName="android:outlineSpotShadowColor"
+                android:valueTo="@android:color/transparent"
+                android:valueType="colorType"
+                android:duration="100" />
+        </set>
+    </item>
+</selector>

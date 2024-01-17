@@ -1,0 +1,430 @@
+[
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/layout_fragment_community1.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/layout/fragment_community1.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/layout_fragment_complaint_list.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/layout/fragment_complaint_list.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/layout_fragment_pdf_reader.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/layout/fragment_pdf_reader.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/drawable_icon_plumbing.png.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/drawable/icon_plumbing.png"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/drawable_mymind_xulsf9lyevk_unsplash.jpg.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/drawable/mymind_xulsf9lyevk_unsplash.jpg"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/drawable_baseline_upload_24.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/drawable/baseline_upload_24.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/drawable-ldpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-pngs-58:/drawable-ldpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/drawable_etentercode.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/drawable/etentercode.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/layout_fragment_appointment.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/layout/fragment_appointment.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/layout_fragment_residenceareaselection.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/layout/fragment_residenceareaselection.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/drawable_pdficon.png.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/drawable/pdficon.png"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/drawable_etentercode2.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/drawable/etentercode2.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/layout_fragment_community_chatsz.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/layout/fragment_community_chatsz.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/drawable-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-pngs-58:/drawable-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/mipmap-anydpi-v26_icon_users.png.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/mipmap-anydpi-v26/icon_users.png"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/drawable_statistic_pic3.png.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/drawable/statistic_pic3.png"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/layout_activity_splash.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/layout_activity_community_chats.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/layout/activity_community_chats.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/xml_backup_rules.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/layout_registerpage.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/layout/registerpage.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/layout_fragment_add_service.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/layout/fragment_add_service.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/drawable-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-pngs-58:/drawable-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/drawable_myhome_high_resolution_logo_transparent_1.png.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/drawable/myhome_high_resolution_logo_transparent_1.png"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/drawable_thomas_lefebvre_mt1uxkaegsq_unsplash.jpg.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/drawable/thomas_lefebvre_mt1uxkaegsq_unsplash.jpg"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/layout_fragment_profile.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/xml_network_security_config.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/drawable_icon_painting.png.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/drawable/icon_painting.png"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/drawable_icon_users.png.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/drawable/icon_users.png"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/drawable_baseline_add_circle_outline_24.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/drawable/baseline_add_circle_outline_24.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/layout_loginpage.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/layout/loginpage.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/layout_fragment_create_community.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/layout/fragment_create_community.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/layout_fragment_home_page.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/layout/fragment_home_page.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/navigation_nav_myhomecircle.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/navigation/nav_myhomecircle.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/layout_fragment_home.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/drawable-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-pngs-58:/drawable-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/drawable_bar_progress_design.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/drawable/bar_progress_design.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/drawable_statistic_pic4.png.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/drawable/statistic_pic4.png"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/drawable_icon_company.png.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/drawable/icon_company.png"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/layout_fragment_community2.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/layout/fragment_community2.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/drawable_icon_electrical.png.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/drawable/icon_electrical.png"
+    },
+    {
+        "merged": "com.example.madassignment.app-merged_res-62:/layout_fragment_community_chatsz.xml.flat",
+        "source": "com.example.madassignment.app-main-64:/layout/fragment_community_chatsz.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/drawable_icon_community.png.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/drawable/icon_community.png"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/layout_item_chat_message.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/layout/item_chat_message.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/drawable-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-pngs-58:/drawable-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/drawable_icon_home.png.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/drawable/icon_home.png"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/layout_activity_main.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/drawable_logo_myhome.png.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/drawable/logo_myhome.png"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/layout_dialog_after_submit.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/layout/dialog_after_submit.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/layout_fragment_complaint.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/layout/fragment_complaint.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/drawable_baseline_send_24.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/drawable/baseline_send_24.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/drawable_icon_arrow_back.png.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/drawable/icon_arrow_back.png"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/layout_fragment_ey_chat.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/layout/fragment_ey_chat.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/font_poppins_medium.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/font/poppins_medium.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/drawable_icon_service.png.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/drawable/icon_service.png"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/layout_fragment_community4.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/layout/fragment_community4.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/layout_dialog_change_password.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/layout/dialog_change_password.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/layout_fragment_service.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/layout/fragment_service.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/drawable_bluebutton.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/drawable/bluebutton.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/layout_arealist.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/layout/arealist.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/font_poppins_semibold.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/font/poppins_semibold.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/layout_fragment_add_complaint.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/layout/fragment_add_complaint.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/drawable_icon_pestcontrol.png.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/drawable/icon_pestcontrol.png"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/drawable_statistic_pic6.png.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/drawable/statistic_pic6.png"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/layout_fragment_community.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/layout/fragment_community.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/drawable-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-pngs-58:/drawable-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/font_poppins_bold.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/font/poppins_bold.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/drawable_lightblue4390fbx07.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/drawable/lightblue4390fbx07.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/drawable_add_new_complaint_design.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/drawable/add_new_complaint_design.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/drawable_groupchaticon.png.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/drawable/groupchaticon.png"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/drawable_selectedyellow.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/drawable/selectedyellow.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/drawable_edit_text_design.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/drawable/edit_text_design.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/font_poppins.ttf.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/font/poppins.ttf"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/drawable_statistic_pic5.png.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/drawable/statistic_pic5.png"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/layout_item_service.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/layout/item_service.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/drawable_luke_chesser_3rwagdkbf7u_unsplash.jpg.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/drawable/luke_chesser_3rwagdkbf7u_unsplash.jpg"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-pngs-58:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/layout_fragment_new_complaint.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/layout/fragment_new_complaint.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/drawable_icon_profile.png.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/drawable/icon_profile.png"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/layout_fragment_community3.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/layout/fragment_community3.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/menu_menu_bottom.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/menu/menu_bottom.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/drawable_selectedchoice.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/drawable/selectedchoice.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/drawable_selecedblue.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/drawable/selecedblue.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/drawable_pdf.jpg.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/drawable/pdf.jpg"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/layout_annucementlist.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/layout/annucementlist.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/layout_fragment_shortannoucement.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/layout/fragment_shortannoucement.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/animator_bottom_nav_item_anim.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/animator/bottom_nav_item_anim.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/drawable_icon_upload.png.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/drawable/icon_upload.png"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/drawable_alerticon.png.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/drawable/alerticon.png"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/font_poppins_black.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/font/poppins_black.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/drawable_icon_ac.png.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/drawable/icon_ac.png"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/drawable_icon_housecleaning.png.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/drawable/icon_housecleaning.png"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/layout_fragment_complaint_details.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/layout/fragment_complaint_details.xml"
+    },
+    {
+        "merged": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-merged_res-62:/layout_fragment_service_list.xml.flat",
+        "source": "/Users/luisl/.gradle/daemon/8.2/com.example.madassignment.app-main-64:/layout/fragment_service_list.xml"
+    }
+]
